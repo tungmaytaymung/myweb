@@ -324,7 +324,7 @@ input {
 }
 
 #contact #name {
-    margin-left: 43px;
+    margin-left: 46px;
 }
 
 #contact #mail {
@@ -502,13 +502,16 @@ textarea {
         width: 30vh;
     }
     #contact button {
-        margin-left: 30vh;
+        margin-left: 28vh;
     }
     #projects .col-sm-12 {
         height: 260px;
     }
     #contact h5 {
         font-size: 0.9em;
+    }
+    #contact #name {
+        margin-left: 43px;
     }
 
 }
@@ -551,13 +554,16 @@ textarea {
         width: 20vh;
     }
     #contact button {
-        margin-left: 20vh;
+        margin-left: 19vh;
     }
     #projects .col-sm-12 {
         height: 260px;
     }
     #contact h5 {
         font-size: 0.9em;
+    }
+    #contact #name {
+        margin-left: 43px;
     }
 
 }
