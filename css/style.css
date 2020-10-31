@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+html {
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    font-size: 16px;
+    color: #3b3b3b;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+}
+
+.head {
+    width: 100%;
+    background: #5AA8AA;
+    position: fixed;
+    z-index: 100; 
+}
+
+.nav-item {
+    padding-right: 6%;
+}
+
+.navbar-brand {
+    padding-left: 10px;
+    float: left;
+    font-size: 2em;
+    color: #fff;
+}
+
+.bg-green {
+    background-color: #5AA8AA !important;
+}
+
+.navbar-nav {
+    margin-left: auto !important;
+    padding-right: 180px;
+}
+
+#main-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#home {
+    width: 100%;
+}
+
+#home .jumbotron {
+    background-color: #EBF4F4;
+    background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(/image/marissa-rodriguez-2mKYEVGA4jE-unsplash.jpg);
+    background-repeat: no-repeat;
+    border-radius: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#home hr {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 2px solid #3b3b3b;
+}
+
+#main-img {
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.social-icons {
+    list-style: none;
+    display: inline;
+    margin: 15px;
+}
+
+.social i {
+    margin-top: 80px;
+    color: #696969;
+    font-size: 2.5em;
+}
+
+.social i:hover {
+    color: #3b3b3b;
+}
+
+section h1 {
+    margin-top: 50px;
+}
+
+.section-odd .jumbotron {
+    background-color: #EBF4F4;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.section-even .jumbotron {
+    background-color: #FAF9F9;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.line {
+    border-left: 6px dashed #87c2c5;
+    height: 600px;
+    width: 30%;
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.point-top {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 7px solid #5AA8AA;
+    background-color:#EBF4F4;
+    margin-left: -18px;
+    z-index:20;
+}
+
+.point {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 7px solid #5AA8AA;
+    background-color:#EBF4F4;
+    margin-left: -18px;
+    z-index:20;
+    margin-top: 263px;
+}
+
+#time3 {
+    position: absolute;
+    margin-top: -660px;
+    right: 55%;
+    text-align: right;
+}
+
+#time2 {
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 52%;
+    text-align: left;
+}
+
+#time1 {
+    position: absolute;
+    margin-top: -78px;
+    right: 55%;
+    text-align: right;
+}
+
+#education .year {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#education .school {
+    margin-left: 100px;
+}
+
+#skills li {
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bar {
+    background-color: #FAF9F9;
+    display: block;
+    height: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bar div {
+    background-color: #5AA8AA;
+    height: 15px;
+    float: left;
+    border-radius: 10px;
+}
+
+.html {
+    width: 0%;
+    animation: html 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+.css {
+    width: 0%;
+    animation: css 1s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+.javascript {
+    width: 0%;
+    animation: javascript 1s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+
+.react {
+    width: 0%;
+    animation: react 1s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+
+.python {
+    width: 0%;
+    animation: python 1s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+.java {
+    width: 0%;
+    animation: java 1s;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+}
+
+.sql {
+    width: 0%;
+    animation: sql 1s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+}
+
+#interests li {
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#interests  h5 {
+    color: #FAF9F9;
+    width: fit-content;
+    background-color: #5AA8AA;
+    border: 1px solid #5AA8AA;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#projects .container{
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+#projects .col-sm-12 {
+    border: 3px solid ;
+    border-radius: 20px;
+    margin: 0 auto 20px;
+    background-color: #FAF9F9;
+    border: #EBF4F4 10px solid;
+    height: 250px;
+    padding: 10px;
+    text-align: center;
+}
+
+#projects h5 {
+    background-color: #5AA8AA;
+    border: #5AA8AA 10px solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: -11px;
+    color: #FAF9F9;
+}
+
+#projects h6 {
+    margin-top: 30px;
+    text-align: left;
+}
+
+#projects h4{
+    font-size: 0.9em;
+    text-align: right;
+}
+
+#contact form {
+    margin: 50px;
+    margin-bottom: 0;
+}
+
+#contact h5 {
+    margin-top: 30px;
+}
+
+input {
+    background-color: #EBF4F4;
+    border: 3px solid #5AA8AA;
+    border-radius: 15px;
+    outline-style: none;
+    padding: 5px;
+    padding-left: 10px;
+    height: 50px;
+    color: #5AA8AA;
+    width: 100vh;
+}
+
+#contact #name {
+    margin-left: 46px;
+}
+
+#contact #mail {
+    margin-left: 33px;
+}
+
+textarea {
+    background-color: #EBF4F4;
+    border: 3px solid #5AA8AA;
+    border-radius: 20px;
+    min-height: 200px;
+    position: absolute;
+    margin-left: 25px;
+    padding: 10px;
+    width: 100vh;
+    outline-style: none;
+    color: #5AA8AA;
+}
+
+#contact button {
+    background-color: #5AA8AA;
+    color: #FAF9F9;
+    border: 3px solid #5AA8AA;
+    border-radius: 10px;
+    margin-top: 200px;
+    width: 100px;
+    height: 50px;
+    font-size: 1.3em;
+    text-align: center;
+    margin-left: 102vh;
+    outline-style: none;
+}
+
+#contact button:hover {
+    background-color: #579fa1;
+    border: 3px solid #579fa1;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes java {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes sql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+  
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #education h5 {
+        font-size: 1.2em;
+    }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    #education h5 {
+        font-size: 1.1em;
+    }
+    input {
+        width: 80vh;
+    }
+    textarea {
+        width: 80vh;
+    }
+    #contact button {
+        margin-left: 82vh;
+    }
+    #projects .col-sm-12 {
+        height: 300px;
+    }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    #home h1 {
+        font-size: 1.7em;
+    }
+
+    #home h5 {
+        font-size: 1em;
+    }
+    
+    #home hr {
+        width: 400px;
+    }
+
+    .fab {
+        font-size: 2em;
+    }
+    
+    .fas {
+        font-size: 2em;
+    }
+    #education h5 {
+        font-size: 1em;
+    }
+    #education .year {
+        margin-top: 30px;
+        margin-left: 30px
+    }
+    
+    #education .school {
+        margin-left: 60px;
+    }
+    input {
+        width: 40vh;
+    }
+    textarea {
+        width: 40vh;
+    }
+    #contact button {
+        margin-left: 42vh;
+    }
+    #projects .col-sm-12 {
+        height: 260px;
+    }
+
+}
