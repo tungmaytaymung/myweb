@@ -179,77 +179,19 @@ section h1 {
     margin-left: 100px;
 }
 
-#skills li {
+#skill li {
     list-style: none;
     margin-top: 50px;
     margin-left: 50px;
-    margin-right: 50px;
 }
 
-.bar {
-    background-color: #FAF9F9;
-    display: block;
-    height: 15px;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.bar div {
+#skill h5 {
+    color: #FAF9F9;
+    width: fit-content;
     background-color: #5AA8AA;
-    height: 15px;
-    float: left;
-    border-radius: 10px;
-}
-
-.html {
-    width: 0%;
-    animation: html 1s;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-}
-
-.css {
-    width: 0%;
-    animation: css 1s;
-    animation-delay: 4s;
-    animation-fill-mode: forwards;
-}
-
-.javascript {
-    width: 0%;
-    animation: javascript 1s;
-    animation-delay: 5s;
-    animation-fill-mode: forwards;
-}
-
-.react {
-    width: 0%;
-    animation: react 1s;
-    animation-delay: 6s;
-    animation-fill-mode: forwards;
-}
-
-.python {
-    width: 0%;
-    animation: python 1s;
-    animation-delay: 7s;
-    animation-fill-mode: forwards;
-}
-
-.java {
-    width: 0%;
-    animation: java 1s;
-    animation-delay: 8s;
-    animation-fill-mode: forwards;
-}
-
-.sql {
-    width: 0%;
-    animation: sql 1s;
-    animation-delay: 9s;
-    animation-fill-mode: forwards;
+    border: 1px solid #5AA8AA;
+    border-radius: 30px;
+    padding: 10px;
 }
 
 #interests li {
@@ -363,100 +305,31 @@ textarea {
     border: 3px solid #579fa1;
 }
 
-@keyframes html {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 85%;
-    }
-}
-
-@keyframes css {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 70%;
-    }
-}
-
-@keyframes javascript {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 50%;
-    }
-}
-
-@keyframes react {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 40%;
-    }
-}
-@keyframes python {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 80%;
-    }
-}
-
-@keyframes java {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 75%;
-    }
-}
-
-@keyframes sql {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 70%;
-    }
-}
-
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
 }
   
 /********** Medium devices only **********/
-@media (min-width: 1000px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     #education h5 {
         font-size: 1.2em;
     }
 }
 
 /********** Small devices only **********/
-@media (min-width: 800px) and (max-width: 999px) {
+@media (min-width: 764px) and (max-width: 991px) {
     #education h5 {
         font-size: 1.1em;
     }
     input {
-        width: 80vh;
+        width: 70vh;
     }
     textarea {
-        width: 80vh;
+        width: 70vh;
     }
     #contact button {
-        margin-left: 82vh;
+        margin-left: 72vh;
     }
     #projects .col-sm-12 {
         height: 300px;
@@ -464,7 +337,7 @@ textarea {
 }
 
 /********** Extra small devices only **********/
-@media (max-width: 799px) {
+@media (max-width: 763px) {
     #home h1 {
         font-size: 1.7em;
     }
@@ -496,13 +369,13 @@ textarea {
         margin-left: 60px;
     }
     input {
-        width: 40vh;
+        width: 35vh;
     }
     textarea {
-        width: 40vh;
+        width: 35vh;
     }
     #contact button {
-        margin-left: 28vh;
+        margin-left: 25vh;
     }
     #projects .col-sm-12 {
         height: 260px;
