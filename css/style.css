@@ -318,7 +318,7 @@ textarea {
 }
 
 /********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 764px) and (max-width: 991px) {
     #education h5 {
         font-size: 1.1em;
     }
@@ -334,15 +334,10 @@ textarea {
     #projects .col-sm-12 {
         height: 300px;
     }
-    #contact form {
-        margin: 0.5%;
-        margin-bottom: 0;
-    }
-
 }
 
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
+@media (max-width: 763px) {
     #home h1 {
         font-size: 1.7em;
     }
@@ -352,7 +347,7 @@ textarea {
     }
     
     #home hr {
-        width: 400px;
+        width: 350px;
     }
 
     .fab {
@@ -374,16 +369,74 @@ textarea {
         margin-left: 60px;
     }
     input {
-        width: 40vh;
+        width: 35vh;
     }
     textarea {
-        width: 40vh;
+        width: 35vh;
     }
     #contact button {
-        margin-left: 42vh;
+        margin-left: 25vh;
     }
     #projects .col-sm-12 {
         height: 260px;
+    }
+    #contact h5 {
+        font-size: 0.9em;
+    }
+    #contact #name {
+        margin-left: 43px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    #home h1 {
+        font-size: 1.7em;
+    }
+
+    #home h5 {
+        font-size: 1em;
+    }
+    
+    #home hr {
+        width: 350px;
+    }
+
+    .fab {
+        font-size: 2em;
+    }
+    
+    .fas {
+        font-size: 2em;
+    }
+    #education h5 {
+        font-size: 1em;
+    }
+    #education .year {
+        margin-top: 30px;
+        margin-left: 30px
+    }
+    
+    #education .school {
+        margin-left: 60px;
+    }
+    input {
+        width: 20vh;
+    }
+    textarea {
+        width: 20vh;
+    }
+    #contact button {
+        margin-left: 19vh;
+    }
+    #projects .col-sm-12 {
+        height: 280px;
+    }
+    #contact h5 {
+        font-size: 0.9em;
+    }
+    #contact #name {
+        margin-left: 43px;
     }
 
 }
