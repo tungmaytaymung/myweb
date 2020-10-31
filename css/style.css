@@ -496,13 +496,13 @@ textarea {
         margin-left: 60px;
     }
     input {
-        width: 40vh;
+        width: 10vh;
     }
     textarea {
-        width: 40vh;
+        width: 10vh;
     }
     #contact button {
-        margin-left: 42vh;
+        margin-left: 12vh;
     }
     #projects .col-sm-12 {
         height: 260px;
