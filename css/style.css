@@ -510,7 +510,7 @@ textarea {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     #home h1 {
         font-size: 1.7em;
     }
@@ -542,13 +542,13 @@ textarea {
         margin-left: 60px;
     }
     input {
-        width: 30vh;
+        width: 10vh;
     }
     textarea {
-        width: 30vh;
+        width: 10vh;
     }
     #contact button {
-        margin-left: 32vh;
+        margin-left: 12vh;
     }
     #projects .col-sm-12 {
         height: 260px;
