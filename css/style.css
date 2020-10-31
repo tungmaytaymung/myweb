@@ -179,13 +179,13 @@ section h1 {
     margin-left: 100px;
 }
 
-#skill li {
+#skills li {
     list-style: none;
     margin-top: 50px;
     margin-left: 50px;
 }
 
-#skill h5 {
+#skills h5 {
     color: #FAF9F9;
     width: fit-content;
     background-color: #5AA8AA;
@@ -245,7 +245,7 @@ section h1 {
 }
 
 #contact form {
-    margin: 50px;
+    margin: 3%;
     margin-bottom: 0;
 }
 
@@ -262,7 +262,7 @@ input {
     padding-left: 10px;
     height: 50px;
     color: #5AA8AA;
-    width: 100vh;
+    width: 80vh;
 }
 
 #contact #name {
@@ -281,7 +281,7 @@ textarea {
     position: absolute;
     margin-left: 25px;
     padding: 10px;
-    width: 100vh;
+    width: 80vh;
     outline-style: none;
     color: #5AA8AA;
 }
@@ -318,7 +318,7 @@ textarea {
 }
 
 /********** Small devices only **********/
-@media (min-width: 764px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
     #education h5 {
         font-size: 1.1em;
     }
@@ -329,15 +329,20 @@ textarea {
         width: 70vh;
     }
     #contact button {
-        margin-left: 72vh;
+        margin-left: 73vh;
     }
     #projects .col-sm-12 {
         height: 300px;
     }
+    #contact form {
+        margin: 0.5%;
+        margin-bottom: 0;
+    }
+
 }
 
 /********** Extra small devices only **********/
-@media (max-width: 763px) {
+@media (max-width: 767px) {
     #home h1 {
         font-size: 1.7em;
     }
@@ -347,7 +352,7 @@ textarea {
     }
     
     #home hr {
-        width: 350px;
+        width: 400px;
     }
 
     .fab {
@@ -369,74 +374,16 @@ textarea {
         margin-left: 60px;
     }
     input {
-        width: 35vh;
+        width: 40vh;
     }
     textarea {
-        width: 35vh;
+        width: 40vh;
     }
     #contact button {
-        margin-left: 25vh;
+        margin-left: 42vh;
     }
     #projects .col-sm-12 {
         height: 260px;
-    }
-    #contact h5 {
-        font-size: 0.9em;
-    }
-    #contact #name {
-        margin-left: 43px;
-    }
-
-}
-
-@media (max-width: 600px) {
-    #home h1 {
-        font-size: 1.7em;
-    }
-
-    #home h5 {
-        font-size: 1em;
-    }
-    
-    #home hr {
-        width: 350px;
-    }
-
-    .fab {
-        font-size: 2em;
-    }
-    
-    .fas {
-        font-size: 2em;
-    }
-    #education h5 {
-        font-size: 1em;
-    }
-    #education .year {
-        margin-top: 30px;
-        margin-left: 30px
-    }
-    
-    #education .school {
-        margin-left: 60px;
-    }
-    input {
-        width: 20vh;
-    }
-    textarea {
-        width: 20vh;
-    }
-    #contact button {
-        margin-left: 19vh;
-    }
-    #projects .col-sm-12 {
-        height: 280px;
-    }
-    #contact h5 {
-        font-size: 0.9em;
-    }
-    #contact #name {
-        margin-left: 43px;
     }
 
 }
