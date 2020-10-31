@@ -542,13 +542,13 @@ textarea {
         margin-left: 60px;
     }
     input {
-        width: 1vh;
+        width: 20vh;
     }
     textarea {
-        width: 1vh;
+        width: 20vh;
     }
     #contact button {
-        margin-left: 2vh;
+        margin-left: 22vh;
     }
     #projects .col-sm-12 {
         height: 260px;
