@@ -509,3 +509,49 @@ textarea {
     }
 
 }
+
+@media (max-width: 500px) {
+    #home h1 {
+        font-size: 1.7em;
+    }
+
+    #home h5 {
+        font-size: 1em;
+    }
+    
+    #home hr {
+        width: 400px;
+    }
+
+    .fab {
+        font-size: 2em;
+    }
+    
+    .fas {
+        font-size: 2em;
+    }
+    #education h5 {
+        font-size: 1em;
+    }
+    #education .year {
+        margin-top: 30px;
+        margin-left: 30px
+    }
+    
+    #education .school {
+        margin-left: 60px;
+    }
+    input {
+        width: 30vh;
+    }
+    textarea {
+        width: 30vh;
+    }
+    #contact button {
+        margin-left: 32vh;
+    }
+    #projects .col-sm-12 {
+        height: 260px;
+    }
+
+}
