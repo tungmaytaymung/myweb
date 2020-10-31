@@ -369,13 +369,13 @@ textarea {
         margin-left: 60px;
     }
     input {
-        width: 35vh;
+        width: 50vh;
     }
     textarea {
-        width: 35vh;
+        width: 50vh;
     }
     #contact button {
-        margin-left: 25vh;
+        margin-left: 53vh;
     }
     #projects .col-sm-12 {
         height: 260px;
@@ -427,7 +427,7 @@ textarea {
         width: 30vh;
     }
     #contact button {
-        margin-left: 20vh;
+        margin-left: 33vh;
     }
     #projects .col-sm-12 {
         height: 280px;
