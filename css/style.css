@@ -548,13 +548,13 @@ textarea {
         margin-left: 60px;
     }
     input {
-        width: 25vh;
+        width: 20vh;
     }
     textarea {
-        width: 25vh;
+        width: 20vh;
     }
     #contact button {
-        margin-left: 23vh;
+        margin-left: 19vh;
     }
     #projects .col-sm-12 {
         height: 280px;
