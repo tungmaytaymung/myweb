@@ -507,6 +507,9 @@ textarea {
     #projects .col-sm-12 {
         height: 260px;
     }
+    #contact h5 {
+        font-size: 0.8em;
+    }
 
 }
 
@@ -552,6 +555,9 @@ textarea {
     }
     #projects .col-sm-12 {
         height: 260px;
+    }
+    #contact h5 {
+        font-size: 0.8em;
     }
 
 }
