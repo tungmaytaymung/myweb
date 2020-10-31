@@ -343,7 +343,7 @@ textarea {
     }
 
     #home h5 {
-        font-size: 1em;
+        font-size: 0.9em;
     }
     
     #home hr {
@@ -375,7 +375,7 @@ textarea {
         width: 50vh;
     }
     #contact button {
-        margin-left: 45vh;
+        margin-left: 48vh;
     }
     #projects .col-sm-12 {
         height: 260px;
@@ -395,7 +395,7 @@ textarea {
     }
 
     #home h5 {
-        font-size: 1em;
+        font-size: 0.8em;
     }
     
     #home hr {
@@ -427,7 +427,7 @@ textarea {
         width: 30vh;
     }
     #contact button {
-        margin-left: 25vh;
+        margin-left: 28vh;
     }
     #projects .col-sm-12 {
         height: 280px;
