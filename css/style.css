@@ -220,7 +220,7 @@ section h1 {
     margin: 0 auto 20px;
     background-color: #FAF9F9;
     border: #EBF4F4 10px solid;
-    height: 250px;
+    height: 275px;
     padding: 10px;
     text-align: center;
 }
@@ -319,17 +319,23 @@ textarea {
 
 /********** Small devices only **********/
 @media (min-width: 764px) and (max-width: 991px) {
-    #education h5 {
-        font-size: 1.1em;
+    h6 {
+        font-size: 0.9em;
+    }
+    h5 {
+        font-size: 1em;
+    }
+    h4 {
+        font-size: 0.8em;
     }
     input {
-        width: 70vh;
+        width: 60vh;
     }
     textarea {
-        width: 70vh;
+        width: 60vh;
     }
     #contact button {
-        margin-left: 73vh;
+        margin-left: 63vh;
     }
     #projects .col-sm-12 {
         height: 300px;
@@ -338,6 +344,18 @@ textarea {
 
 /********** Extra small devices only **********/
 @media (max-width: 763px) {
+    h6 {
+        font-size: 0.8em;
+    }
+    h5 {
+        font-size: 0.9em;
+    }
+    h4 {
+        font-size: 0.7em;
+    }
+    h1 {
+        font-size: 1.7em;
+    }
     #home h1 {
         font-size: 1.5em;
     }
@@ -375,7 +393,7 @@ textarea {
         width: 50vh;
     }
     #contact button {
-        margin-left: 48.5vh;
+        margin-left: 50vh;
     }
     #projects .col-sm-12 {
         height: 260px;
@@ -386,10 +404,27 @@ textarea {
     #contact #name {
         margin-left: 43px;
     }
+    #contact button {
+        font-size: 1.1em;
+        width: 80px;
+        height: 40px;
+    }
 
 }
 
 @media (max-width: 600px) {
+    h6 {
+        font-size: 0.8em;
+    }
+    h5 {
+        font-size: 0.9em;
+    }
+    h4 {
+        font-size: 0.5em;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
     #home h1 {
         font-size: 1.3em;
     }
@@ -421,13 +456,13 @@ textarea {
         margin-left: 60px;
     }
     input {
-        width: 30vh;
+        width: 40vh;
     }
     textarea {
-        width: 30vh;
+        width: 40vh;
     }
     #contact button {
-        margin-left: 28.5vh;
+        margin-left: 40vh;
     }
     #projects .col-sm-12 {
         height: 280px;
@@ -438,5 +473,78 @@ textarea {
     #contact #name {
         margin-left: 43px;
     }
+    #contact button {
+        font-size: 1em;
+        width: 80px;
+        height: 40px;
+    }
 
+}
+
+@media (max-width: 400px) {
+    h6 {
+        font-size: 0.8em;
+    }
+    h5 {
+        font-size: 0.9em;
+    }
+    h4 {
+        font-size: 0.5em;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    #contact button {
+        font-size: 1em;
+        width: 80px;
+        height: 40px;
+    }
+    #home h1 {
+        font-size: 1.3em;
+    }
+
+    #home h5 {
+        font-size: 0.8em;
+    }
+    
+    #home hr {
+        width: 275px;
+    }
+
+    .fab {
+        font-size: 2em;
+    }
+    
+    .fas {
+        font-size: 2em;
+    }
+    #education h5 {
+        font-size: 1em;
+    }
+    #education .year {
+        margin-top: 30px;
+        margin-left: 30px
+    }
+    
+    #education .school {
+        margin-left: 60px;
+    }
+    input {
+        width: 30vh;
+    }
+    textarea {
+        width: 30vh;
+    }
+    #contact button {
+        margin-left: 30vh;
+    }
+    #projects .col-sm-12 {
+        height: 280px;
+    }
+    #contact h5 {
+        font-size: 0.9em;
+    }
+    #contact #name {
+        margin-left: 43px;
+    }
 }
